@@ -9,7 +9,7 @@ module Jemquarie
   end
 
   class Jemquarie
-    BASE_URI  = "https://www.macquarie.com.au/ESI/ESIWebService/Extract"
+    BASE_URI = "https://www.macquarie.com.au/ESI/ESIWebService/Extract"
     @api_key = nil
 
     class << self

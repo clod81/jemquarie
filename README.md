@@ -34,7 +34,7 @@ Jemquarie::Jemquarie.api_key(YOUR_KEY)
 
 
 ```ruby
-  Jemquarie::Importer.new(username, password).retrieve(3.months.ago.to_date, Date.today)
+  Jemquarie::Importer.new(username, password).cash_transactions(3.months.ago.to_date, Date.today)
 ```
 
 

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions  xmlns:tns="wrapwebservices"
+  xmlns:wsr="http://www.openuri.org/2002/10/soap/reliability/"
+  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:soap12enc="http://www.w3.org/2003/05/soap-encoding"
+  xmlns:conv="http://www.openuri.org/2002/04/wsdl/conversation/"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:s="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://schemas.xmlsoap.org/wsdl/"
+  targetNamespace="wrapwebservices">
+ <types>
+  <xsd:schema    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:stns="java:language_builtins.lang"
+    elementFormDefault="qualified"
+    attributeFormDefault="qualified"
+    targetNamespace="java:language_builtins.lang">
+   <xsd:import     namespace="http://schemas.xmlsoap.org/soap/encoding/">
+   </xsd:import>
+   <xsd:complexType     name="ArrayOfString">
+    <xsd:complexContent>
+     <xsd:restriction       xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+       base="soapenc:Array">
+      <xsd:attribute        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        ref="soapenc:arrayType"
+        wsdl:arrayType="xsd:string[]">
+      </xsd:attribute>
+     </xsd:restriction>
+    </xsd:complexContent>
+   </xsd:complexType>
+  </xsd:schema>
+ </types>
+ <message   name="GenerateXMLExtract">
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string">
+  </part>
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string0">
+  </part>
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string1">
+  </part>
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string2">
+  </part>
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string3">
+  </part>
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="string4">
+  </part>
+  <part    xmlns:partns="java:language_builtins.lang"
+    type="partns:ArrayOfString"
+    name="strings">
+  </part>
+ </message>
+ <message   name="GenerateXMLExtractResponse">
+  <part    xmlns:partns="http://www.w3.org/2001/XMLSchema"
+    type="partns:string"
+    name="result">
+  </part>
+ </message>
+ <portType   name="XMLExtractPort">
+  <operation    name="GenerateXMLExtract">
+   <input     message="tns:GenerateXMLExtract">
+   </input>
+   <output     message="tns:GenerateXMLExtractResponse">
+   </output>
+  </operation>
+ </portType>
+ <binding   type="tns:XMLExtractPort"
+   name="XMLExtractPort">
+  <soap:binding    style="rpc"
+    transport="http://schemas.xmlsoap.org/soap/http">
+  </soap:binding>
+  <operation    name="GenerateXMLExtract">
+   <soap:operation     style="rpc"
+     soapAction="">
+   </soap:operation>
+   <input>
+    <soap:body      namespace="wrapwebservices"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      use="encoded">
+    </soap:body>
+   </input>
+   <output>
+    <soap:body      namespace="wrapwebservices"
+      encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      use="encoded">
+    </soap:body>
+   </output>
+  </operation>
+ </binding>
+ <service   name="XMLExtract">
+  <port    name="XMLExtractPort"
+    binding="tns:XMLExtractPort">
+   <soap:address     location="https://www.macquarie.com.au/ESI/ESIWebService/Extract">
+   </soap:address>
+  </port>
+ </service>
+</definitions>

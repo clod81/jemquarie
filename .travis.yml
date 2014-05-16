@@ -44,3 +44,6 @@ matrix:
       gemfile: gemfiles/rails_4.0.gemfile
     - rvm: rbx-2.2.1
       gemfile: gemfiles/rails_4.1.gemfile
+
+before_script:
+  - bundle

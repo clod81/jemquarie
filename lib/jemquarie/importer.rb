@@ -7,7 +7,7 @@ module Jemquarie
       @password = password
     end
 
-    def search(date_from, date_to)
+    def retrieve(date_from, date_to)
 
     end
 

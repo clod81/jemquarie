@@ -1,0 +1,2346 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:GenerateXMLExtractResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="wrapwebservices">
+         <result xsi:type="xsd:string"><![CDATA[<?xml version="1.0" ?>
+<XMLExtract>
+  <RequestDetails>
+    <RequestStatus>Success</RequestStatus>
+    <RequestErrorNumber></RequestErrorNumber>
+    <RequestErrorDetails></RequestErrorDetails>
+    <RequestTime>2014-05-19 14:02:10.563</RequestTime>
+  </RequestDetails>
+  <XMLEntityDetails>
+    <XMLEntityName>your.clients Transactions</XMLEntityName>
+    <XMLEntityVersion>V1.4</XMLEntityVersion>
+  </XMLEntityDetails>
+  <yourclientsTransactions>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2008-12-19 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0132058314</TransactionId>
+      <Amount>2.4100</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2008-12-19 04:14:26.683</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-01-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0134945977</TransactionId>
+      <Amount>0.8700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2009-01-24 08:36:26.06</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0137036488</TransactionId>
+      <Amount>1.0300</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-02-18 07:18:31.94</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0137050786</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>PHONELINK TFR TO 122840838 B POTTER &amp; J</Narrative>
+      <DateModified>2009-02-18 07:18:31.94</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0137051202</TransactionId>
+      <Amount>1.0400</Amount>
+      <Narrative>PHONELINK TFR TO 122840838 B POTTER &amp; J</Narrative>
+      <DateModified>2009-02-18 07:18:31.936</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0137057213</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-02-18 07:18:31.933</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0137057214</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-02-18 07:18:31.936</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-18 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0137051974</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-02-18 16:56:55.71</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-18 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0137150736</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>PHONELINK TFR TO 122840838 B POTTER &amp; J</Narrative>
+      <DateModified>2009-02-18 16:56:55.71</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-20 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0137242754</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>PHONELINK FUNDS TFR TO DONALD DUCK</Narrative>
+      <DateModified>2009-02-20 03:24:25.616</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-02-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0137482202</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>RETURNED TRANSFER FROM 062-000 987654321</Narrative>
+      <DateModified>2009-02-24 02:29:42.353</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0138812689</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>PHONELINK FUNDS TFR TO DONALD DUCK</Narrative>
+      <DateModified>2009-03-09 04:04:04.22</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0138812747</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-03-09 04:04:04.213</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0138812761</TransactionId>
+      <Amount>1.0300</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-03-09 04:04:04.21</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0138912757</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-09 04:04:04.22</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0138912758</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-09 04:04:04.216</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-09 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0139003450</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>RETURNED TRANSFER FROM 062-000 987654321</Narrative>
+      <DateModified>2009-03-10 02:30:49.67</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0139280938</TransactionId>
+      <Amount>1.0400</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-03-16 04:03:42.86</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0139280952</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-03-16 04:03:42.86</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0139280962</TransactionId>
+      <Amount>1.0700</Amount>
+      <Narrative>PHONELINK FUNDS TFR TO MICKEY MOUSE</Narrative>
+      <DateModified>2009-03-16 04:03:42.87</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0139412051</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-16 04:03:42.866</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0139412052</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-16 04:03:42.863</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0139412053</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-16 04:03:42.866</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0139412054</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-03-16 04:03:42.863</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-03-16 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0139578722</TransactionId>
+      <Amount>1.0700</Amount>
+      <Narrative>RETURNED TRANSFER FROM 112-879 000123321</Narrative>
+      <DateModified>2009-03-17 02:53:30.816</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-04-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0143734350</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2009-04-25 08:34:02.076</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-07-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0152746202</TransactionId>
+      <Amount>0.1300</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2009-07-25 12:56:33.63</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-08-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0154343489</TransactionId>
+      <Amount>0.2300</Amount>
+      <Narrative>John Atalla TC9 - Redirection</Narrative>
+      <DateModified>2009-08-08 05:05:05.353</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-08-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0154765767</TransactionId>
+      <Amount>0.2300</Amount>
+      <Narrative>brad - tc 9 brad - test case 9</Narrative>
+      <DateModified>2009-08-14 02:35:20.33</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-08-20 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0155379269</TransactionId>
+      <Amount>0.2300</Amount>
+      <Narrative>TRANSFER TO CMT 121888168</Narrative>
+      <DateModified>2009-08-20 12:22:40.406</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0157485721</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-09-10 23:25:31.88</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0157485761</TransactionId>
+      <Amount>1.0700</Amount>
+      <Narrative>PHONELINK FUNDS TFR TO MICKEY MOUSE</Narrative>
+      <DateModified>2009-09-10 23:25:31.876</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0157506144</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-09-12 03:31:41.59</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0157506150</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>PHONELINK FUNDS TFR TO DONALD DUCK</Narrative>
+      <DateModified>2009-09-12 03:31:41.586</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0157608158</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2009-09-12 03:31:41.586</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0157616394</TransactionId>
+      <Amount>1.0700</Amount>
+      <Narrative>RETURNED TRANSFER FROM 112-879 000123321</Narrative>
+      <DateModified>2009-09-12 03:31:41.586</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-09-14 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0157725821</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>RETURNED TRANSFER FROM 062-000 987654321</Narrative>
+      <DateModified>2009-09-15 02:37:00.663</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-10-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0162293770</TransactionId>
+      <Amount>0.1300</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2009-10-24 07:58:02.66</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-10-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DD</TransactionType>
+      <TransactionId>0162916430</TransactionId>
+      <Amount>75.0400</Amount>
+      <Narrative>CLOSING BALANCE TO CMA 960652964</Narrative>
+      <DateModified>2009-10-29 03:09:32.466</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-10-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0163232648</TransactionId>
+      <Amount>74.0400</Amount>
+      <Narrative>BELL POTTER TEST</Narrative>
+      <DateModified>2009-10-31 04:47:41.96</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2009-11-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0163803452</TransactionId>
+      <Amount>1.0500</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2009-11-06 04:50:27.18</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>BHPVT022</FurtherInfo>
+      <OtherReference>BHPVT022</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-01-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0170701257</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-01-23 08:03:14.293</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0180099509</TransactionId>
+      <Amount>0.7600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-04-24 07:52:31.446</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-06-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DC</TransactionType>
+      <TransactionId>0184572789</TransactionId>
+      <Amount>5.0300</Amount>
+      <Narrative>PVT2</Narrative>
+      <DateModified>2010-06-11 17:12:46.703</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-06-11 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>CD</TransactionType>
+      <TransactionId>0184573518</TransactionId>
+      <Amount>5.0200</Amount>
+      <Narrative>PVT1</Narrative>
+      <DateModified>2010-06-11 17:12:46.713</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0188667026</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>TRANSACT TFR TO 121741961 joe &amp; mary tes</Narrative>
+      <DateModified>2010-07-22 20:56:03.903</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>test case 05</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0188667264</TransactionId>
+      <Amount>0.1000</Amount>
+      <Narrative>test case 10</Narrative>
+      <DateModified>2010-07-22 20:56:03.903</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0188666988</TransactionId>
+      <Amount>1.0300</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2010-07-23 03:19:23.346</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>test case 04</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0188766865</TransactionId>
+      <Amount>1.0500</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-07-24 05:29:29.443</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0188872210</TransactionId>
+      <Amount>0.7700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-07-24 05:29:29.443</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0189555348</TransactionId>
+      <Amount>0.0600</Amount>
+      <Narrative>TEST F-FOR CMA P TEST CASE 08</Narrative>
+      <DateModified>2010-07-30 02:03:36.506</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>CD</TransactionType>
+      <TransactionId>0189599755</TransactionId>
+      <Amount>1.0600</Amount>
+      <Narrative>OUTBACK TESTING TC 16-03</Narrative>
+      <DateModified>2010-07-30 09:47:55.263</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-07-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0189846685</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-07-31 11:57:07.396</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0190093539</TransactionId>
+      <Amount>1.1500</Amount>
+      <Narrative>PVT Tab 20 05</Narrative>
+      <DateModified>2010-08-02 04:46:52.993</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0190134198</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-08-03 03:06:13.98</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0190134199</TransactionId>
+      <Amount>1.1100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-08-03 03:06:13.98</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0190134200</TransactionId>
+      <Amount>1.5200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-08-03 03:06:13.98</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0190134201</TransactionId>
+      <Amount>1.6300</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-08-03 03:06:13.98</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-03 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>49</TransactionType>
+      <TransactionId>0190303060</TransactionId>
+      <Amount>6.0000</Amount>
+      <Narrative>CHEQUE BOOK FEE</Narrative>
+      <DateModified>2010-08-04 02:28:24.0</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>FEES</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-08-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0192770175</TransactionId>
+      <Amount>0.3200</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-09-01 06:37:55.23</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-09 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0193891309</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>TRANSACT TFR TO 960000032 PVT_002_Funds</Narrative>
+      <DateModified>2010-09-10 05:49:26.233</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-09 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0193891467</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>pvt 002 FT</Narrative>
+      <DateModified>2010-09-10 05:49:26.236</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0193891323</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY TO MACQUARIE CMT</Narrative>
+      <DateModified>2010-09-13 04:02:54.79</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0194022940</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-13 04:02:54.796</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0194022941</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-13 04:02:54.793</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-10 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0194022942</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-13 04:02:54.796</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0194634160</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-18 03:04:55.403</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-27 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0195386603</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>PVT002FundsTransfe</Narrative>
+      <DateModified>2010-09-28 06:08:44.433</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-27 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0195386755</TransactionId>
+      <Amount>1.0300</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2010-09-28 06:08:44.426</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-27 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0195386887</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>TRANSACT TFR TO 960000032 PVT_002_Funds</Narrative>
+      <DateModified>2010-09-28 06:08:44.43</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>PVT002FundsTransfer</FurtherInfo>
+      <OtherReference>PVT002FundsTransfer</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-27 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0195473495</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-28 06:08:44.426</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-27 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0195473496</TransactionId>
+      <Amount>1.0300</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-09-28 06:08:44.416</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-09-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0196323776</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-10-01 07:26:50.956</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-10-08 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0197444106</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2010-10-08 03:38:49.803</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-10-15 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0198457473</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-10-16 04:17:21.406</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-10-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0199204682</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2010-10-23 03:54:25.156</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-10-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0200040117</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-10-30 06:32:01.993</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-11-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0203025508</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2010-12-01 05:47:42.153</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2010-12-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0206309441</TransactionId>
+      <Amount>0.3400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-01-01 06:37:54.576</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0209262510</TransactionId>
+      <Amount>0.2800</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-02-01 05:34:26.516</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-02-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0212346546</TransactionId>
+      <Amount>0.2800</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-03-01 06:25:27.89</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-03-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0214565861</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2011-03-22 18:56:36.103</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-03-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0214613970</TransactionId>
+      <Amount>2.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-03-23 02:57:31.516</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-03-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0214614040</TransactionId>
+      <Amount>1.2000</Amount>
+      <Narrative>BPAY TO INDIGO SHIRE COUNCIL</Narrative>
+      <DateModified>2011-03-23 02:57:31.503</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-03-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0216015073</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-04-01 07:29:49.043</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217089587</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-06 11:52:24.583</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-06 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217092259</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-06 11:52:24.58</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217257525</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-07 15:07:26.57</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>ATOT</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217259473</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-07 15:07:26.57</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217262433</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-07 15:07:26.566</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0217313051</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MBL - CMA</Narrative>
+      <DateModified>2011-04-07 15:07:26.566</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-04-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0219661862</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-04-30 07:45:25.046</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-05-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0222804861</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-06-01 07:01:06.483</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+      <FurtherInfo>Macquarie</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-06-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0225728357</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-07-01 07:02:55.466</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>PSNI</CategoryType>
+      <FurtherInfo>PVT test11zczxczczxczczxczxsfsdfds</FurtherInfo>
+      <OtherReference>xxcvcxvxvvcxxcvcxvxcvxcvcvxc</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-07-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0229167142</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-07-30 07:17:46.29</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>ASLE</CategoryType>
+      <FurtherInfo>PVT test 26</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-08-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0232426478</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-09-01 06:48:58.663</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-09-02 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>BB</TransactionType>
+      <TransactionId>0232998937</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY DEPOSIT</Narrative>
+      <DateModified>2011-09-03 03:07:59.133</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>DVND</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-09-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0235964222</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-10-01 07:33:35.566</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-10-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0239354996</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-11-01 04:02:32.51</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-11-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0246415201</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-12-01 03:35:41.426</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-12-05 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0247041671</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO POWER &amp; WATER</Narrative>
+      <DateModified>2011-12-05 04:30:21.776</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2011-12-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0249491929</TransactionId>
+      <Amount>0.3000</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2011-12-31 05:05:42.966</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0252251724</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-02-01 03:39:08.433</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-02-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0255188723</TransactionId>
+      <Amount>0.2900</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-03-01 03:59:50.6</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-03-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0258545218</TransactionId>
+      <Amount>0.3100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-03-31 05:10:08.933</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-04-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0262153286</TransactionId>
+      <Amount>0.2900</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-05-01 03:05:51.97</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-05-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0265211564</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-06-01 02:58:42.986</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-06-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0268112033</TransactionId>
+      <Amount>0.2500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-06-30 04:44:50.303</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-07-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0271577375</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-08-01 03:10:44.81</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+      <FurtherInfo>test</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-08-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0274605496</TransactionId>
+      <Amount>0.2600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-09-01 04:04:15.436</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-09-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0277752576</TransactionId>
+      <Amount>0.2600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-09-29 05:25:14.386</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-10-15 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0280005636</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>TRANSACT TFR TO 121741961 Test Funds Tra</Narrative>
+      <DateModified>2012-10-13 14:14:21.55</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-10-15 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0280005650</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MACQUARIE CASH XL</Narrative>
+      <DateModified>2012-10-13 14:14:21.556</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <FurtherInfo>test</FurtherInfo>
+      <OtherReference>test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-10-15 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0280005888</TransactionId>
+      <Amount>0.0200</Amount>
+      <Narrative>Test credit to acc</Narrative>
+      <DateModified>2012-10-13 14:54:42.873</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-10-16 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0280162686</TransactionId>
+      <Amount>0.0200</Amount>
+      <Narrative>TFR REF TEST PP FOR TUESDA</Narrative>
+      <DateModified>2012-10-16 15:17:41.553</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>testing 123</FurtherInfo>
+      <OtherReference>testing 123</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-10-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0281657137</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-11-01 02:30:21.74</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-11-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0284604352</TransactionId>
+      <Amount>0.2600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2012-12-01 03:08:16.06</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2012-12-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0287674863</TransactionId>
+      <Amount>0.2400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-01-01 02:13:21.513</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+      <FurtherInfo>1</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-01-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DC</TransactionType>
+      <TransactionId>0289992813</TransactionId>
+      <Amount>0.9800</Amount>
+      <Narrative>WITHDRAWAL CHEQUE</Narrative>
+      <DateModified>2013-01-24 19:03:47.913</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-01-25 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>87</TransactionType>
+      <TransactionId>0290059296</TransactionId>
+      <Amount>0.9800</Amount>
+      <Narrative>REVERSAL CHQ 099363</Narrative>
+      <DateModified>2013-01-25 09:47:41.08</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0290610035</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-02-01 02:03:40.973</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-02-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0293525886</TransactionId>
+      <Amount>0.2400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-03-01 02:26:19.73</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-03-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0296847560</TransactionId>
+      <Amount>0.2500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-03-29 04:04:36.48</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0300078813</TransactionId>
+      <Amount>0.5000</Amount>
+      <Narrative>TRANSACT FUNDS TFR TO DONALD DUCK</Narrative>
+      <DateModified>2013-04-22 16:30:14.35</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300079451</TransactionId>
+      <Amount>1.0000</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-22 16:34:12.75</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>420pm test</FurtherInfo>
+      <OtherReference>420pm test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300079709</TransactionId>
+      <Amount>1.1000</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-22 16:43:08.17</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>APUR</CategoryType>
+      <FurtherInfo>437 test</FurtherInfo>
+      <OtherReference>437 test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300080101</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-22 16:57:14.74</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>450 test</FurtherInfo>
+      <OtherReference>450 tets</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0300079655</TransactionId>
+      <Amount>0.1700</Amount>
+      <Narrative>TRANSACT FUNDS TFR TO DONALD DUCK</Narrative>
+      <DateModified>2013-04-23 02:13:50.073</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300080399</TransactionId>
+      <Amount>1.1600</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 02:13:50.096</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>502 test</FurtherInfo>
+      <OtherReference>502 test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300080641</TransactionId>
+      <Amount>1.2500</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 02:13:50.12</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <OtherReference>515 test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0300082147</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>TRANSACT FUNDS TFR TO A Lyons</Narrative>
+      <DateModified>2013-04-23 02:13:50.146</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>Test Disclaimer</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300082189</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 02:13:50.17</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>WTHO</CategoryType>
+      <FurtherInfo>Test Disclaimer Wording</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300082215</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 02:13:50.203</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>Test Disclaimer</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300208158</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 16:29:19.076</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>test420</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0300209252</TransactionId>
+      <Amount>1.1000</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2013-04-23 16:43:05.1</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>test437</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0300227962</TransactionId>
+      <Amount>0.5000</Amount>
+      <Narrative>RETURNED TRANSFER FROM 062-000 987654321</Narrative>
+      <DateModified>2013-04-24 01:09:49.976</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0300209854</TransactionId>
+      <Amount>0.0300</Amount>
+      <Narrative>TRANSACT FUNDS TFR TO ABN AMRO Test Acco</Narrative>
+      <DateModified>2013-04-24 02:13:35.406</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+      <CategoryType>SPRP</CategoryType>
+      <FurtherInfo>502</FurtherInfo>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0300338853</TransactionId>
+      <Amount>0.1700</Amount>
+      <Narrative>RETURNED TRANSFER FROM 062-000 987654321</Narrative>
+      <DateModified>2013-04-25 01:12:51.266</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-26 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0300485458</TransactionId>
+      <Amount>0.0300</Amount>
+      <Narrative>RETURNED TRANSFER FROM 182-222 121741995</Narrative>
+      <DateModified>2013-04-27 02:36:27.71</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-04-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0300974254</TransactionId>
+      <Amount>0.2500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-05-01 03:17:23.11</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+      <FurtherInfo>test</FurtherInfo>
+      <OtherReference>test</OtherReference>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-05-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0304446005</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-06-01 02:55:05.583</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-06-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0307454089</TransactionId>
+      <Amount>0.2500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-06-29 03:04:24.59</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-07-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0311360105</TransactionId>
+      <Amount>0.2700</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-08-01 02:07:20.316</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-08-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0314376809</TransactionId>
+      <Amount>0.1100</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-08-31 03:25:15.306</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-09-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0318246743</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-10-01 02:28:10.803</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-10-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0322147800</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-11-01 02:19:55.27</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-11-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0325142183</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2013-11-30 03:10:32.9</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-12-13 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0326870069</TransactionId>
+      <Amount>0.0200</Amount>
+      <Narrative>TRANSACT TFR TO 960000032 PVT_002_Funds</Narrative>
+      <DateModified>2013-12-13 16:24:07.456</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-12-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0327221691</TransactionId>
+      <Amount>0.0100</Amount>
+      <Narrative>TRANSACT TFR TO 960000032 PVT_002_Funds</Narrative>
+      <DateModified>2013-12-17 09:55:09.633</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2013-12-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0328723238</TransactionId>
+      <Amount>0.0600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2014-01-01 02:03:40.73</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-14 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0330186689</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-14 14:46:37.506</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-14 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0330187423</TransactionId>
+      <Amount>0.0700</Amount>
+      <Narrative>FEE PREPVT</Narrative>
+      <DateModified>2014-01-14 14:55:28.336</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-17 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>BP</TransactionType>
+      <TransactionId>0330556186</TransactionId>
+      <Amount>1.0200</Amount>
+      <Narrative>BPAY TO MACQUARIE BANK</Narrative>
+      <DateModified>2014-01-17 01:43:56.24</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-20 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0330746290</TransactionId>
+      <Amount>1.3100</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-20 08:31:28.98</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-20 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0330746730</TransactionId>
+      <Amount>1.4000</Amount>
+      <Narrative>APRIL 07 ADMIN FEE</Narrative>
+      <DateModified>2014-01-20 08:56:02.066</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-20 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0330747680</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-20 09:00:40.95</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-21 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0330862683</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-21 09:00:39.843</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-21 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0330862689</TransactionId>
+      <Amount>4.0000</Amount>
+      <Narrative>PILOT FEE</Narrative>
+      <DateModified>2014-01-21 09:00:46.286</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-21 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0330862709</TransactionId>
+      <Amount>3.0000</Amount>
+      <Narrative>ACCOUNT NAME</Narrative>
+      <DateModified>2014-01-21 09:01:41.613</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331095570</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>PILOT FEE WED</Narrative>
+      <DateModified>2014-01-23 15:13:24.783</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331095936</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>PILOT SHARE WED</Narrative>
+      <DateModified>2014-01-23 15:23:20.883</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331196185</TransactionId>
+      <Amount>0.1100</Amount>
+      <Narrative>FEES FOR SG</Narrative>
+      <DateModified>2014-01-24 14:28:05.876</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0331196391</TransactionId>
+      <Amount>0.1200</Amount>
+      <Narrative>CREDIT FOR PVT</Narrative>
+      <DateModified>2014-01-24 14:30:18.653</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0331199445</TransactionId>
+      <Amount>0.5400</Amount>
+      <Narrative>ATO TAX PAYMENT</Narrative>
+      <DateModified>2014-01-24 14:45:21.346</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331302919</TransactionId>
+      <Amount>3.0000</Amount>
+      <Narrative>MARCH 13 ADMIN FEE</Narrative>
+      <DateModified>2014-01-28 11:11:53.206</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331303213</TransactionId>
+      <Amount>4.0000</Amount>
+      <Narrative>PILOT FEE</Narrative>
+      <DateModified>2014-01-28 11:14:30.406</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331307753</TransactionId>
+      <Amount>0.1100</Amount>
+      <Narrative>FEES FOR SG</Narrative>
+      <DateModified>2014-01-28 11:33:25.88</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331308609</TransactionId>
+      <Amount>0.1900</Amount>
+      <Narrative>NF CR PILOT TEST</Narrative>
+      <DateModified>2014-01-28 11:48:20.176</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0331317614</TransactionId>
+      <Amount>0.5600</Amount>
+      <Narrative>ATO TAX PAYMENT</Narrative>
+      <DateModified>2014-01-28 14:14:29.706</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0331386905</TransactionId>
+      <Amount>1.0100</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-29 09:00:41.406</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>TD</TransactionType>
+      <TransactionId>0331416811</TransactionId>
+      <Amount>0.5500</Amount>
+      <Narrative>ATO TAX PAYMENT</Narrative>
+      <DateModified>2014-01-29 11:25:41.81</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-29 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0331435663</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>29</Narrative>
+      <DateModified>2014-01-29 15:29:21.196</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331489474</TransactionId>
+      <Amount>4.0000</Amount>
+      <Narrative>PILOT FEE</Narrative>
+      <DateModified>2014-01-30 09:00:40.556</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>DT</TransactionType>
+      <TransactionId>0331496054</TransactionId>
+      <Amount>0.0600</Amount>
+      <Narrative>29</Narrative>
+      <DateModified>2014-01-30 10:22:11.306</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0331655350</TransactionId>
+      <Amount>0.1000</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-31 11:39:26.786</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0331680713</TransactionId>
+      <Amount>0.9900</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-01-31 13:49:52.82</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-01-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0331902472</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2014-02-01 02:38:35.116</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-02-24 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0334082367</TransactionId>
+      <Amount>2.0100</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-02-24 11:19:24.453</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-02-28 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0334849722</TransactionId>
+      <Amount>0.0400</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2014-03-01 02:44:18.723</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-03-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0335870438</TransactionId>
+      <Amount>2.0200</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-03-07 09:00:31.146</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-03-07 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>DF</TransactionType>
+      <TransactionId>0335886318</TransactionId>
+      <Amount>2.0400</Amount>
+      <Narrative>TRANSFER FROM CMH 121742001</Narrative>
+      <DateModified>2014-03-07 11:20:56.913</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-03-31 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0338543094</TransactionId>
+      <Amount>0.0500</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2014-04-01 02:16:14.836</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-04-22 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>D</DebitCredit>
+      <TransactionType>46</TransactionType>
+      <TransactionId>0341534998</TransactionId>
+      <Amount>0.0900</Amount>
+      <Narrative>PP TO JOE TEST EDIT 090221</Narrative>
+      <DateModified>2014-04-22 15:30:47.556</DateModified>
+      <TransactionCategory>WTHD</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-04-23 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>50</TransactionType>
+      <TransactionId>0341782905</TransactionId>
+      <Amount>0.0900</Amount>
+      <Narrative>RETURNED TRANSFER FROM 182-222 000121741</Narrative>
+      <DateModified>2014-04-24 00:55:56.476</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+    </yourclientsTransaction>
+    <yourclientsTransaction>
+      <AccountNumber>121741987</AccountNumber>
+      <TransactionDate>2014-04-30 00:00:00.0</TransactionDate>
+      <ReversalFlag>N</ReversalFlag>
+      <DebitCredit>C</DebitCredit>
+      <TransactionType>73</TransactionType>
+      <TransactionId>0342606112</TransactionId>
+      <Amount>0.0600</Amount>
+      <Narrative>CASH MANAGEMENT SERVICE INTEREST PAID</Narrative>
+      <DateModified>2014-05-01 01:36:42.763</DateModified>
+      <TransactionCategory>DEPO</TransactionCategory>
+      <CategoryType>INTR</CategoryType>
+    </yourclientsTransaction>
+  </yourclientsTransactions>
+</XMLExtract>]]></result>
+      </ns1:GenerateXMLExtractResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

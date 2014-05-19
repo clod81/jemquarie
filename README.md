@@ -29,7 +29,7 @@ The api key needs to be the unhashed value.
 
 ```ruby
 require 'jemquarie'
-Jemquarie::Jemquarie.api_key(YOUR_KEY)
+Jemquarie::Jemquarie.set_api_credentials(YOUR_KEY, YOUR_APPLICATION_NAME)
 ```
 
 ### Import transactions
@@ -37,7 +37,8 @@ Jemquarie::Jemquarie.api_key(YOUR_KEY)
 The auth code and password need to be the unhashed values.
 
 ```ruby
-  Jemquarie::Importer.new(username, password).cash_transactions(3.months.ago.to_date, Date.today)
+  Jemquarie::Importer.new(username, password).cash_transactions(1.day.ago.to_date, Date.today)
+  Jemquarie::Importer.new(username, password).cash_transactions(10.years.ago.to_date, Date.today, account_number)
 ```
 
 

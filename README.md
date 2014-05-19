@@ -25,6 +25,8 @@ Or install it yourself as:
 
 Create an initializer file under config/initializers
 
+The api key needs to be the unhashed value.
+
 ```ruby
 require 'jemquarie'
 Jemquarie::Jemquarie.api_key(YOUR_KEY)
@@ -32,6 +34,7 @@ Jemquarie::Jemquarie.api_key(YOUR_KEY)
 
 ### Import transactions
 
+The auth code and password need to be the unhashed values.
 
 ```ruby
   Jemquarie::Importer.new(username, password).cash_transactions(3.months.ago.to_date, Date.today)

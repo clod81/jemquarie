@@ -7,7 +7,6 @@ describe Jemquarie::Jemquarie do
     it "should work" do
       Jemquarie::Jemquarie.api_key.should eq 'TEST'
     end
-
   end
 
 end

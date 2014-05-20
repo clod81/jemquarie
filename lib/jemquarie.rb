@@ -1,3 +1,6 @@
+require 'savon'
+require 'active_support/core_ext/hash'
+
 Dir.glob(File.join(File.expand_path(File.dirname(__FILE__)), "jemquarie/parser/*.rb")).each {|f| require f}
 Dir.glob(File.join(File.expand_path(File.dirname(__FILE__)), "jemquarie/*.rb")).each {|f| require f}
 

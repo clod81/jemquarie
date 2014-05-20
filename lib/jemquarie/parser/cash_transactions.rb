@@ -19,12 +19,12 @@ private
       def parse_single_transaction(transaction)
         {
           :foreign_identifier => transaction["TransactionId"],
-          :date_time          => Time.parse(transaction["TransactionDate"]),
+          :date_time          => Time.parse(transaction["TransactionDate"] + " UTC"),
           :amount             => transaction["DebitCredit"] == 'C' ? transaction["Amount"] : ('-' + transaction["Amount"]),
           :type_name          => translate_transaction_type(transaction["TransactionType"]),
           :description        => transaction["Narrative"],
           :meta_data => {
-            :updated_at       => Time.parse(transaction["DateModified"])
+            :updated_at       => Time.parse(transaction["DateModified"] + " UTC")
           }
         }
       end

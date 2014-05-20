@@ -4,10 +4,10 @@ module Jemquarie
 
       def parse_cash_transactions_response(response)
         body = response.body
-        return {:error => "Wrong result"} unless body[:generate_xml_extract_response] && body[:generate_xml_extract_response][:result]
+        return {:error => "Invalid credentials"} unless body[:generate_xml_extract_response] && body[:generate_xml_extract_response][:result] && body[:generate_xml_extract_response][:result].is_a?(String)
         result = Hash.from_xml(Nokogiri::XML.fragment(body[:generate_xml_extract_response][:result]).to_s)
-        return {:error => "Wrong result"} unless result["XMLExtract"] && result["XMLExtract"]["yourclientsTransactions"] && result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"]
         transactions = []
+        return transactions unless result["XMLExtract"] && result["XMLExtract"]["yourclientsTransactions"] && result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"]
         result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"].each do |transaction|
           transactions << parse_single_transaction(transaction)
         end

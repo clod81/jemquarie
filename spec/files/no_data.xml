@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:GenerateXMLExtractResponse xmlns:ns1="wrapwebservices" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <result xsi:type="xsd:string">&lt;?xml version="1.0" ?&gt;
+&lt;XMLExtract&gt;
+  &lt;RequestDetails&gt;
+    &lt;RequestStatus&gt;Success&lt;/RequestStatus&gt;
+    &lt;RequestErrorNumber&gt;&lt;/RequestErrorNumber&gt;
+    &lt;RequestErrorDetails&gt;&lt;/RequestErrorDetails&gt;
+    &lt;RequestTime&gt;2014-05-21 09:44:09.466&lt;/RequestTime&gt;
+  &lt;/RequestDetails&gt;
+  &lt;XMLEntityDetails&gt;
+    &lt;XMLEntityName&gt;your.clients Transactions&lt;/XMLEntityName&gt;
+    &lt;XMLEntityVersion&gt;V1.4&lt;/XMLEntityVersion&gt;
+  &lt;/XMLEntityDetails&gt;
+  &lt;yourclientsTransactions&gt;
+  &lt;/yourclientsTransactions&gt;
+&lt;/XMLExtract&gt;
+</result>
+    </ns1:GenerateXMLExtractResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

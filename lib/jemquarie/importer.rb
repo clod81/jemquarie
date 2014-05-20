@@ -22,7 +22,8 @@ module Jemquarie
         return {:error => "Cannot request more than 2 days of transactions if not account is specified"}
       end
       response = @client.call(:generate_xml_extract, :message => create_message(date_from, date_to, account_number))
-      parse_cash_transactions_response(response)
+      return parse_cash_transactions_response(response) if response.success?
+      {:error => "An error has occured, please try again later"}
     end
 
 private

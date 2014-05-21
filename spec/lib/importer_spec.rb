@@ -10,7 +10,7 @@ describe Jemquarie::Importer do
     let(:importer) do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
-    before do
+    before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
         body: File.read('spec/files/transactions.xml'),
         content_type: 'text/xml'
@@ -43,7 +43,7 @@ describe Jemquarie::Importer do
     let(:importer) do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
-    before do
+    before(:each) do
       @result = importer.cash_transactions((Date.today - 3.days), Date.today)
     end
     it "should stop the request" do
@@ -55,7 +55,7 @@ describe Jemquarie::Importer do
     let(:importer) do
       Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
     end
-    before do
+    before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
         body: File.read('spec/files/non_authenticated.xml'),
         content_type: 'text/xml'
@@ -72,7 +72,7 @@ describe Jemquarie::Importer do
     let(:importer) do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
-    before do
+    before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
         body: File.read('spec/files/no_data.xml'),
         content_type: 'text/xml'
@@ -84,7 +84,5 @@ describe Jemquarie::Importer do
       expect(@result).to eq([])
     end
   end
-
-private
 
 end

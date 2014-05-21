@@ -17,12 +17,12 @@ module Jemquarie
         Jemquarie.app_key(application)
       end
       def api_key(api_key = nil)
-        return @api_key unless @api_key.nil?
-        @api_key = api_key
+        @api_key = api_key unless api_key.nil?
+        @api_key
       end
       def app_key(app_key = nil)
-        return @app_key unless @app_key.nil?
-        @app_key = app_key
+        @app_key = app_key unless app_key.nil?
+        @app_key
       end
     end
   end

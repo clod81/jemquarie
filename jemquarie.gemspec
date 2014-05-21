@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["contin@gmail.com"]
   spec.description   = %q{Connect to Macquarie ESI web services}
   spec.summary       = %q{Ruby Gem for extracting cash transactions from Macquarie ESI web service}
-  spec.homepage      = "http://www.sharesight.com"
+  spec.homepage      = "https://github.com/clod81/jemquarie"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

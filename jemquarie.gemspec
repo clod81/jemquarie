@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Jemquarie::VERSION
   spec.authors       = ["Claudio Contin"]
   spec.email         = ["contin@gmail.com"]
-  spec.description   = %q{Connect to Macquerie ESI web services}
-  spec.summary       = %q{Connect to Macquerie ESI web services}
+  spec.description   = %q{Connect to Macquarie ESI web services}
+  spec.summary       = %q{Ruby Gem for extracting cash transactions from Macquarie ESI web service}
   spec.homepage      = "http://www.sharesight.com"
   spec.license       = "MIT"
 
@@ -19,10 +19,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "savon",                   '~> 2.0'
-  spec.add_dependency "activesupport",           '>= 3.0'
+  spec.add_runtime_dependency "activesupport",   '>= 3.0'
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "fakeweb", '~> 1.3.0'
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "bundler",     '>= 1.3'
+  spec.add_development_dependency "rake",        '>= 10.3.0'
+  spec.add_development_dependency "fakeweb",     '>= 1.3.0'
+  spec.add_development_dependency "rspec",       '>= 2.14.0'
 end

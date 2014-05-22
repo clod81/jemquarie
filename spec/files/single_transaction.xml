@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><ns1:GenerateXMLExtractResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="wrapwebservices"><result xsi:type="xsd:string">&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;XMLExtract&gt;
+  &lt;RequestDetails&gt;
+    &lt;RequestStatus&gt;Success&lt;/RequestStatus&gt;
+    &lt;RequestErrorNumber&gt;&lt;/RequestErrorNumber&gt;
+    &lt;RequestErrorDetails&gt;&lt;/RequestErrorDetails&gt;
+    &lt;RequestTime&gt;2014-05-20 10:02:44.45&lt;/RequestTime&gt;
+  &lt;/RequestDetails&gt;
+  &lt;XMLEntityDetails&gt;
+    &lt;XMLEntityName&gt;your.clients Transactions&lt;/XMLEntityName&gt;
+    &lt;XMLEntityVersion&gt;V1.4&lt;/XMLEntityVersion&gt;
+  &lt;/XMLEntityDetails&gt;
+  &lt;yourclientsTransactions&gt;
+    &lt;yourclientsTransaction&gt;
+      &lt;AccountNumber&gt;121741987&lt;/AccountNumber&gt;
+      &lt;TransactionDate&gt;2008-12-19 00:00:00.0&lt;/TransactionDate&gt;
+      &lt;ReversalFlag&gt;N&lt;/ReversalFlag&gt;
+      &lt;DebitCredit&gt;D&lt;/DebitCredit&gt;
+      &lt;TransactionType&gt;BP&lt;/TransactionType&gt;
+      &lt;TransactionId&gt;0132058314&lt;/TransactionId&gt;
+      &lt;Amount&gt;2.4100&lt;/Amount&gt;
+      &lt;Narrative&gt;BPAY TO MACQUARIE CMT&lt;/Narrative&gt;
+      &lt;DateModified&gt;2008-12-19 04:14:26.683&lt;/DateModified&gt;
+      &lt;TransactionCategory&gt;WTHD&lt;/TransactionCategory&gt;
+    &lt;/yourclientsTransaction&gt;
+  &lt;/yourclientsTransactions&gt;
+&lt;/XMLExtract&gt;
+</result></ns1:GenerateXMLExtractResponse></soapenv:Body></soapenv:Envelope>

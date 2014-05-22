@@ -8,7 +8,12 @@ module Jemquarie
         result = Hash.from_xml(Nokogiri::XML.fragment(body[:generate_xml_extract_response][:result]).to_s)
         transactions = []
         return transactions unless result["XMLExtract"] && result["XMLExtract"]["yourclientsTransactions"] && result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"]
-        result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"].each do |transaction|
+        xml_transactions = if result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"].is_a?(Hash)
+          [result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"]]
+        else
+          result["XMLExtract"]["yourclientsTransactions"]["yourclientsTransaction"]
+        end
+        xml_transactions.each do |transaction|
           transactions << parse_single_transaction(transaction)
         end
         transactions

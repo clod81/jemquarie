@@ -39,6 +39,23 @@ describe Jemquarie::Importer do
     end
   end
 
+  describe "single transaction success" do
+    let(:importer) do
+      Jemquarie::Importer.new('valid_code', 'valid_password')
+    end
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/single_transaction.xml'),
+        content_type: 'text/xml'
+      )
+      @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
+    end
+    it "should work" do
+      expect(@result).to be_kind_of Array
+      expect(@result).to have(1).items
+    end
+  end
+
   describe "do not allow more than 2 days without an account number" do
     let(:importer) do
       Jemquarie::Importer.new('valid_code', 'valid_password')

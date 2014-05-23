@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jemquarie (0.0.3)
+    jemquarie (0.0.4)
       activesupport (>= 3.0)
       savon (~> 2.0)
 

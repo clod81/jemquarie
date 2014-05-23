@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:GenerateXMLExtractResponse xmlns:ns1="wrapwebservices" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <result xsi:type="xsd:string">&lt;?xml version="1.0" ?&gt;
+&lt;XMLExtract&gt;
+  &lt;RequestDetails&gt;
+    &lt;RequestStatus&gt;Failure&lt;/RequestStatus&gt;
+    &lt;RequestErrorNumber&gt;E0005&lt;/RequestErrorNumber&gt;
+    &lt;RequestErrorDetails&gt;Invalid Authentication Code or Authentication Password&lt;/RequestErrorDetails&gt;
+  &lt;/RequestDetails&gt;
+  &lt;XMLEntityDetails&gt;
+    &lt;XMLEntityName&gt;your.clients Transactions&lt;/XMLEntityName&gt;
+    &lt;XMLEntityVersion&gt;V1.4&lt;/XMLEntityVersion&gt;
+  &lt;/XMLEntityDetails&gt;
+&lt;/XMLExtract&gt;
+</result>
+    </ns1:GenerateXMLExtractResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

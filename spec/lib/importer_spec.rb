@@ -56,35 +56,6 @@ describe Jemquarie::Importer do
     end
   end
 
-  describe "do not allow more than 2 days without an account number" do
-    let(:importer) do
-      Jemquarie::Importer.new('valid_code', 'valid_password')
-    end
-    before(:each) do
-      @result = importer.cash_transactions((Date.today - 3.days), Date.today)
-    end
-    it "should stop the request" do
-      expect(@result).to be_kind_of Hash
-    end
-  end
-
-  describe "wrong auth" do
-    let(:importer) do
-      Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
-    end
-    before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/non_authenticated.xml'),
-        content_type: 'text/xml'
-      )
-      @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
-    end
-    it "should return wrong authentication" do
-      expect(@result).to be_kind_of Hash
-      expect(@result[:error]).to eq("Invalid credentials")
-    end
-  end
-
   describe "no data" do
     let(:importer) do
       Jemquarie::Importer.new('valid_code', 'valid_password')
@@ -99,6 +70,69 @@ describe Jemquarie::Importer do
     it "should return an empty array" do
       expect(@result).to be_kind_of Array
       expect(@result).to eq([])
+    end
+  end
+
+  describe "do not allow more than 2 days without an account number" do
+    let(:importer) do
+      Jemquarie::Importer.new('valid_code', 'valid_password')
+    end
+    before(:each) do
+      @result = importer.cash_transactions((Date.today - 3.days), Date.today)
+    end
+    it "should stop the request" do
+      expect(@result).to be_kind_of Hash
+    end
+  end
+
+  describe "non auth" do
+    let(:importer) do
+      Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
+    end
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/non_authenticated.xml'),
+        content_type: 'text/xml'
+      )
+      @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
+    end
+    it "should return wrong authentication" do
+      expect(@result).to be_kind_of Hash
+      expect(@result[:error]).to eq("Invalid Authentication Code or Authentication Password")
+    end
+  end
+
+  describe "wrong auth" do
+    let(:importer) do
+      Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
+    end
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/wrong_authentication.xml'),
+        content_type: 'text/xml'
+      )
+      @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
+    end
+    it "should return wrong authentication" do
+      expect(@result).to be_kind_of Hash
+      expect(@result[:error]).to eq("Invalid Authentication Code or Authentication Password")
+    end
+  end
+
+  describe "non existing account number" do
+    let(:importer) do
+      Jemquarie::Importer.new('valid_code', 'valid_password')
+    end
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/wrong_account_number.xml'),
+        content_type: 'text/xml'
+      )
+      @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, 'invalid')
+    end
+    it "should return wrong account number" do
+      expect(@result).to be_kind_of Hash
+      expect(@result[:error]).to eq("Invalid Account Number")
     end
   end
 

@@ -41,12 +41,10 @@ The auth code and password need to be the unhashed values.
   Jemquarie::Importer.new(username, password).cash_transactions(10.years.ago.to_date, Date.today, account_number)
 ```
 
-### Results
-
 ## Success with data
 
 The gem should return an array with formatted data. Here an example:
-```
+```ruby
 [
  {
    :foreign_identifier => "123456",
@@ -69,6 +67,13 @@ It just returns an empty Array
 ## Authentication failure
 
 It returns an Hash {:error => "Invalid credentials"} .
+
+
+### Other available calls are:
+
+- client balances
+- account details
+- expiry of credentials
 
 
 ## Authors ##

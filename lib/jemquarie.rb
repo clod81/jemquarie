@@ -4,10 +4,12 @@ require 'jemquarie/parser/generic'
 require 'jemquarie/parser/cash_transactions'
 require 'jemquarie/parser/expiry'
 require 'jemquarie/parser/account_details'
+require 'jemquarie/parser/balance'
 require 'jemquarie/base'
 require 'jemquarie/importer'
 require 'jemquarie/expiry'
 require 'jemquarie/account_details'
+require 'jemquarie/balance'
 
 module Jemquarie
 

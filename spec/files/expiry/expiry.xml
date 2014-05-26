@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:GenerateXMLExtractResponse xmlns:ns1="wrapwebservices" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <result xsi:type="xsd:string">&lt;?xml version="1.0" ?&gt;
+&lt;XMLExtract&gt;
+  &lt;RequestDetails&gt;
+    &lt;RequestStatus&gt;Success&lt;/RequestStatus&gt;
+    &lt;RequestErrorNumber&gt;&lt;/RequestErrorNumber&gt;
+    &lt;RequestErrorDetails&gt;&lt;/RequestErrorDetails&gt;
+  &lt;/RequestDetails&gt;
+  &lt;XMLEntityDetails&gt;
+    &lt;XMLEntityName&gt;Authentication Expiry&lt;/XMLEntityName&gt;
+    &lt;XMLEntityVersion&gt;V1.0&lt;/XMLEntityVersion&gt;
+  &lt;/XMLEntityDetails&gt;
+  &lt;ExpiryDate&gt;2015-01-14 10:22:12.03&lt;/ExpiryDate&gt;
+&lt;/XMLExtract&gt;
+</result>
+    </ns1:GenerateXMLExtractResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,8 +1,13 @@
 require 'savon'
 require 'active_support/core_ext/hash'
-
-Dir.glob(File.join(File.expand_path(File.dirname(__FILE__)), "jemquarie/parser/*.rb")).each {|f| require f}
-Dir.glob(File.join(File.expand_path(File.dirname(__FILE__)), "jemquarie/*.rb")).each {|f| require f}
+require 'jemquarie/parser/generic'
+require 'jemquarie/parser/cash_transactions'
+require 'jemquarie/parser/expiry'
+require 'jemquarie/parser/account_details'
+require 'jemquarie/base'
+require 'jemquarie/importer'
+require 'jemquarie/expiry'
+require 'jemquarie/account_details'
 
 module Jemquarie
 

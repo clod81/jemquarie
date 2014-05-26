@@ -12,7 +12,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions.xml'),
+        body: File.read('spec/files/transactions/transactions.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
@@ -45,7 +45,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/single_transaction.xml'),
+        body: File.read('spec/files/transactions/single_transaction.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
@@ -62,7 +62,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/no_data.xml'),
+        body: File.read('spec/files/transactions/no_data.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
@@ -91,7 +91,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/non_authenticated.xml'),
+        body: File.read('spec/files/transactions/non_authenticated.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
@@ -108,7 +108,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/wrong_authentication.xml'),
+        body: File.read('spec/files/transactions/wrong_authentication.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
@@ -125,7 +125,7 @@ describe Jemquarie::Importer do
     end
     before(:each) do
       FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/wrong_account_number.xml'),
+        body: File.read('spec/files/transactions/wrong_account_number.xml'),
         content_type: 'text/xml'
       )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, 'invalid')

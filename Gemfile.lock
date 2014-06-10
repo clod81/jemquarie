@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jemquarie (0.0.5)
+    jemquarie (0.0.6)
       activesupport (>= 3.0)
       savon (~> 2.0)
 
@@ -56,7 +56,7 @@ GEM
       uuid (~> 2.3.7)
       wasabi (~> 3.3.0)
     systemu (2.6.4)
-    thread_safe (0.3.3)
+    thread_safe (0.3.4)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
     uuid (2.3.7)

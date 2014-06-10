@@ -13,7 +13,7 @@ module Jemquarie
       @client = ::Savon.client do
         endpoint         Jemquarie::BASE_URI
         wsdl             File.expand_path("../extract.wsdl", __FILE__)
-        pretty_print_xml true
+        pretty_print_xml Jemquarie.logging_enabled?
       end
     end
 

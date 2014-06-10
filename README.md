@@ -29,7 +29,7 @@ The api key needs to be the unhashed value.
 
 ```ruby
 require 'jemquarie'
-Jemquarie::Jemquarie.set_api_credentials(YOUR_KEY, YOUR_APPLICATION_NAME)
+Jemquarie::Jemquarie.api_credentials(YOUR_KEY, YOUR_APPLICATION_NAME, ENABLE_SOAP_REQUESTS_LOGGING true|false-default)
 ```
 
 ### Import transactions

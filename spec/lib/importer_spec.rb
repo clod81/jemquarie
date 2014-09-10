@@ -98,7 +98,7 @@ describe Jemquarie::Importer do
     end
     it "should return wrong authentication" do
       expect(@result).to be_kind_of Hash
-      expect(@result[:error]).to eq("Invalid Authentication Code or Authentication Password")
+      expect(@result[:error]).to eq("An error has occured, please try again later")
     end
   end
 

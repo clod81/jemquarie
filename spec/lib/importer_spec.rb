@@ -19,7 +19,7 @@ describe Jemquarie::Importer do
     end
     it "should work" do
       expect(@result).to be_kind_of Array
-      expect(@result).to have(185).items
+      expect(@result).to have(186).items
 
       first_item = @result.first
       expect(first_item[:foreign_identifier]).to eq("0132058314")
@@ -27,6 +27,7 @@ describe Jemquarie::Importer do
       expect(first_item[:amount]).to eq("-2.4100")
       expect(first_item[:type_name]).to eq("B-PAY WITHDRAWAL")
       expect(first_item[:description]).to eq("BPAY TO MACQUARIE CMT")
+      expect(first_item[:reverse]).to eq(false)
       expect(first_item[:meta_data][:updated_at]).to eq(Time.parse("2008-12-19 04:14:26.683 UTC"))
 
       last_item = @result.last
@@ -35,8 +36,20 @@ describe Jemquarie::Importer do
       expect(last_item[:amount]).to eq("0.0600")
       expect(last_item[:type_name]).to eq("INTEREST PAID")
       expect(last_item[:description]).to eq("CASH MANAGEMENT SERVICE INTEREST PAID")
+      expect(first_item[:reverse]).to eq(false)
       expect(last_item[:meta_data][:updated_at]).to eq(Time.parse("2014-05-01 01:36:42.763 UTC"))
+
+
+      reverse_item = @result.detect{ |row| row[:reverse] == true }
+      expect(reverse_item[:foreign_identifier]).to eq(first_item[:foreign_identifier])
+      expect(reverse_item[:date_time]).to eq(Time.parse("2008-12-23 00:00:00 UTC"))
+      expect(reverse_item[:amount]).to eq(first_item[:amount])
+      expect(reverse_item[:type_name]).to eq(first_item[:type_name])
+      expect(reverse_item[:description]).to eq(first_item[:description])
+      expect(reverse_item[:reverse]).to eq(true)
+      expect(reverse_item[:meta_data][:updated_at]).to eq(Time.parse("2008-12-23 04:14:26.683 UTC"))
     end
+
   end
 
   describe "single transaction success" do

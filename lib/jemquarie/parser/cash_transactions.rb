@@ -27,6 +27,7 @@ private
           :amount             => transaction["DebitCredit"] == 'C' ? transaction["Amount"] : ('-' + transaction["Amount"]),
           :type_name          => translate_transaction_type(transaction["TransactionType"]),
           :description        => transaction["Narrative"],
+          :reverse            => (transaction["ReversalFlag"] == 'Y'),
           :meta_data => {
             :updated_at       => Time.parse(transaction["DateModified"] + " UTC")
           }

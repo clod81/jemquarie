@@ -35,3 +35,5 @@ build/
 
 # rspec
 .rspec
+
+Gemfile.lock

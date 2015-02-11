@@ -38,6 +38,18 @@
     &lt;/yourclientsTransaction&gt;
     &lt;yourclientsTransaction&gt;
       &lt;AccountNumber&gt;121741987&lt;/AccountNumber&gt;
+      &lt;TransactionDate&gt;2008-12-23 00:00:00.0&lt;/TransactionDate&gt;
+      &lt;ReversalFlag&gt;Y&lt;/ReversalFlag&gt;
+      &lt;DebitCredit&gt;D&lt;/DebitCredit&gt;
+      &lt;TransactionType&gt;BP&lt;/TransactionType&gt;
+      &lt;TransactionId&gt;0132058314&lt;/TransactionId&gt;
+      &lt;Amount&gt;2.4100&lt;/Amount&gt;
+      &lt;Narrative&gt;BPAY TO MACQUARIE CMT&lt;/Narrative&gt;
+      &lt;DateModified&gt;2008-12-23 04:14:26.683&lt;/DateModified&gt;
+      &lt;TransactionCategory&gt;WTHD&lt;/TransactionCategory&gt;
+    &lt;/yourclientsTransaction&gt;
+    &lt;yourclientsTransaction&gt;
+      &lt;AccountNumber&gt;121741987&lt;/AccountNumber&gt;
       &lt;TransactionDate&gt;2009-02-17 00:00:00.0&lt;/TransactionDate&gt;
       &lt;ReversalFlag&gt;N&lt;/ReversalFlag&gt;
       &lt;DebitCredit&gt;D&lt;/DebitCredit&gt;

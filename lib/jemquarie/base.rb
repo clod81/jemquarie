@@ -11,9 +11,10 @@ module Jemquarie
       @username = username
       @password = password
       @client = ::Savon.client do
-        endpoint  Jemquarie::BASE_URI
-        wsdl      File.expand_path("../extract.wsdl", __FILE__)
-        log_level Jemquarie.log_level
+        endpoint    Jemquarie::BASE_URI
+        wsdl        File.expand_path("../extract.wsdl", __FILE__)
+        log_level   Jemquarie.log_level
+        ssl_version :TLSv1
       end
     end
 

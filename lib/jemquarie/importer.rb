@@ -22,7 +22,7 @@ private
         :string1 => hash_key(@username),
         :string2 => hash_key(@password),
         :string3 => 'your.clients Transactions',
-        :string4 => 'V1.4',
+        :string4 => 'V1.5',
         :strings => [
           {
             :item0 => account_number,                          # Account Number

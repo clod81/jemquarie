@@ -19,7 +19,7 @@ private
         :string1 => hash_key(@username),
         :string2 => hash_key(@password),
         :string3 => 'your.clients Account Details',
-        :string4 => 'V1.3',
+        :string4 => 'V1.5',
         :strings => [
           {
             :item0 => account_number,                          # Account Number

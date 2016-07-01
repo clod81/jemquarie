@@ -149,4 +149,27 @@ describe Jemquarie::Importer do
     end
   end
 
+  describe "with no date parameters" do
+    let(:importer) do
+      Jemquarie::Importer.new('valid_code', 'valid_password')
+    end
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/transactions/transactions.xml'),
+        content_type: 'text/xml'
+      )
+    end
+    it "should return error when trying to get transactions with no date and no account" do
+      @result = importer.cash_transactions(nil, nil, nil)
+      expect(@result).to be_kind_of Hash
+      expect(@result[:error]).to eq("Missing from and to dates")
+    end
+
+    it "should accept parameters with account number but no date parameters without error" do
+      @result = importer.cash_transactions(nil, nil, '12345')
+      expect(@result).to be_kind_of Array
+      expect(FakeWeb.last_request.body.include?("<tns:item1></tns:item1>")).to be_true
+    end
+  end
+
 end

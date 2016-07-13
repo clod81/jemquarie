@@ -19,7 +19,7 @@ describe Jemquarie::Importer do
     end
     it "should work" do
       expect(@result).to be_kind_of Array
-      expect(@result).to have(186).items
+      expect(@result.size).to eq(186)
 
       first_item = @result.first
       expect(first_item[:foreign_identifier]).to eq("0132058314")
@@ -65,7 +65,7 @@ describe Jemquarie::Importer do
     end
     it "should work" do
       expect(@result).to be_kind_of Array
-      expect(@result).to have(1).items
+      expect(@result.size).to eq(1)
     end
   end
 

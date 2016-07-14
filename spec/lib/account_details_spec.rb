@@ -18,7 +18,7 @@ describe Jemquarie::AccountDetails do
       @result = importer.details(Date.parse("01/01/2000"), Date.today)
     end
     it "should work" do
-      expect(@result).to have(182).items
+      expect(@result.size).to eq(182)
       first_res = @result.first
       expect(first_res[:account_number]).to eq("118115765")
       expect(first_res[:account_name]).to eq("JAMES ANDREW LOCKETT")

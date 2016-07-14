@@ -19,7 +19,7 @@ describe Jemquarie::Balance do
         @result = importer.balance
       end
       it "should work" do
-        expect(@result).to have(106).items
+        expect(@result.size).to eq(106)
         first_result = @result.first
         expect(first_result[:account_number]).to eq("118498062")
         expect(first_result[:ledger_balance]).to eq("0.0000")

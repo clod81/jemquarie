@@ -168,7 +168,7 @@ describe Jemquarie::Importer do
     it "should accept parameters with account number but no date parameters without error" do
       @result = importer.cash_transactions(nil, nil, '12345')
       expect(@result).to be_kind_of Array
-      expect(FakeWeb.last_request.body.include?("<tns:item1></tns:item1>")).to be_true
+      expect(FakeWeb.last_request.body.include?("<tns:item1></tns:item1>")).to be true
     end
   end
 

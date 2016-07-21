@@ -23,6 +23,7 @@ private
       def parse_single_transaction(transaction)
         {
           :foreign_identifier => transaction["TransactionId"],
+          :account_number     => transaction["AccountNumber"],
           :date_time          => Time.parse(transaction["TransactionDate"] + " UTC"),
           :amount             => transaction["DebitCredit"] == 'C' ? transaction["Amount"] : ('-' + transaction["Amount"]),
           :type_name          => translate_transaction_type(transaction["TransactionType"]),

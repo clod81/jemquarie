@@ -2,7 +2,7 @@ module Jemquarie
   module Parser
     module AccountDetails
 
-       def parse_account_details(response)
+      def parse_account_details(response)
         result = generic_request_response(response)
         return result if result[:error]
         details = []

@@ -36,7 +36,7 @@ describe Jemquarie::Balance do
         @result = importer.balance
       end
       it "should work" do
-        expect(@result).to eq({:error => "Unable to process this request at this time"})
+        expect(@result).to eq({:error => "Unable to process this request at this time", :code => "E0009"})
       end
     end
   end

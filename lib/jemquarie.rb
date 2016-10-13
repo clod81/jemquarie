@@ -5,11 +5,13 @@ require 'jemquarie/parser/cash_transactions'
 require 'jemquarie/parser/expiry'
 require 'jemquarie/parser/account_details'
 require 'jemquarie/parser/balance'
+require 'jemquarie/parser/service'
 require 'jemquarie/base'
 require 'jemquarie/importer'
 require 'jemquarie/expiry'
 require 'jemquarie/account_details'
 require 'jemquarie/balance'
+require 'jemquarie/service'
 
 module Jemquarie
 

@@ -18,7 +18,7 @@ module Jemquarie
       end
     end
 
-protected
+    protected
 
     def hash_key(key)
       Base64.strict_encode64(OpenSSL::Digest::SHA1.digest(key))

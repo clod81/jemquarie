@@ -6,8 +6,7 @@ module Jemquarie
 
     def date
       response = @client.call :generate_xml_extract, :message => create_message
-      save_xml_file(response, 'service-date')
-      # return parse_service_date(response) if response.success?
+      return parse_service_date(response) if response.success?
       {:error => "An error has occured, please try again later"}
     end
 

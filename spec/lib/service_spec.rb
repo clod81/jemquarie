@@ -31,7 +31,27 @@ describe Jemquarie::Service do
       )
     end
     it "should raise nothing" do
+      expect{ importer.date }.to_not raise_error
+    end
+    it "should return error message" do
       @result = importer.date
+      expect(@result).to eq({:error => "An error has occured, please try again later"})
+    end
+  end
+
+  describe "with invalid date" do
+    before(:each) do
+      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
+        body: File.read('spec/files/service/fail-date.xml'),
+        content_type: 'text/xml'
+      )
+    end
+    it "should raise nothing" do
+      expect{ importer.date }.to_not raise_error
+    end
+    it "should return error message" do
+      @result = importer.date
+      expect(@result).to eq({:error => "An error has occured, please try again later"})
     end
   end
 

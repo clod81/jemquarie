@@ -89,18 +89,6 @@ describe Jemquarie::Importer do
     end
   end
 
-  describe "do not allow more than 2 days without an account number" do
-    let(:importer) do
-      Jemquarie::Importer.new('valid_code', 'valid_password')
-    end
-    before(:each) do
-      @result = importer.cash_transactions((Date.today - 3.days), Date.today)
-    end
-    it "should stop the request" do
-      expect(@result).to be_kind_of Hash
-    end
-  end
-
   describe "non auth" do
     let(:importer) do
       Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
@@ -162,12 +150,6 @@ describe Jemquarie::Importer do
         content_type: 'text/xml'
       )
     end
-    it "should return error when trying to get transactions with no date and no account" do
-      @result = importer.cash_transactions(nil, nil, nil)
-      expect(@result).to be_kind_of Hash
-      expect(@result[:error]).to eq("Missing from and to dates")
-    end
-
     it "should accept parameters with account number but no date parameters without error" do
       @result = importer.cash_transactions(nil, nil, '12345')
       expect(@result).to be_kind_of Array

@@ -14,6 +14,8 @@ module Jemquarie
         endpoint    Jemquarie::BASE_URI
         wsdl        File.expand_path("../extract.wsdl", __FILE__)
         log_level   Jemquarie.log_level
+        log Jemquarie.log_requests
+        logger Jemquarie.logger if Jemquarie.logger
         ssl_version :TLSv1
       end
     end

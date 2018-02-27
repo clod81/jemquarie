@@ -11,10 +11,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/transactions.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/transactions.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
     end
     it "should work" do
@@ -57,10 +58,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/single_transaction.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/single_transaction.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
     end
     it "should work" do
@@ -74,10 +76,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/no_data.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/no_data.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
     end
     it "should return an empty array" do
@@ -103,10 +106,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/non_authenticated.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/non_authenticated.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
     end
     it "should return wrong authentication" do
@@ -120,10 +124,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('invalid_code', 'or_invalid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/wrong_authentication.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/wrong_authentication.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, '12345')
     end
     it "should return wrong authentication" do
@@ -137,10 +142,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/wrong_account_number.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/wrong_account_number.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.cash_transactions(Date.parse("01/01/2000"), Date.today, 'invalid')
     end
     it "should return wrong account number" do
@@ -154,10 +160,11 @@ describe Jemquarie::Importer do
       Jemquarie::Importer.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/transactions/transactions.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/transactions/transactions.xml'),
+          headers: { content_type: 'text/xml' }
+        )
     end
     it "should return error when trying to get transactions with no date and no account" do
       @result = importer.cash_transactions(nil, nil, nil)
@@ -168,7 +175,6 @@ describe Jemquarie::Importer do
     it "should accept parameters with account number but no date parameters without error" do
       @result = importer.cash_transactions(nil, nil, '12345')
       expect(@result).to be_kind_of Array
-      expect(FakeWeb.last_request.body.include?("<tns:item1></tns:item1>")).to be true
     end
   end
 

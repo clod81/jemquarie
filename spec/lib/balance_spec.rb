@@ -12,10 +12,11 @@ describe Jemquarie::Balance do
     end
     describe "xml with balances" do
       before(:each) do
-        FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-          body: File.read('spec/files/balance/balances.xml'),
-          content_type: 'text/xml'
-        )
+        stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+          .to_return(
+            body: File.read('spec/files/balance/balances.xml'),
+            headers: { content_type: 'text/xml' }
+          )
         @result = importer.balance
       end
       it "should work" do
@@ -29,10 +30,11 @@ describe Jemquarie::Balance do
     end
     describe "error e0009" do
       before(:each) do
-        FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-          body: File.read('spec/files/balance/error_e0009.xml'),
-          content_type: 'text/xml'
-        )
+        stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+          .to_return(
+            body: File.read('spec/files/balance/error_e0009.xml'),
+            headers: { content_type: 'text/xml' }
+          )
         @result = importer.balance
       end
       it "should work" do

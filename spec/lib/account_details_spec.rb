@@ -11,10 +11,11 @@ describe Jemquarie::AccountDetails do
       Jemquarie::AccountDetails.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/account_details/details.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/account_details/details.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.details(Date.parse("01/01/2000"), Date.today)
     end
     it "should work" do

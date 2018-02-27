@@ -11,10 +11,11 @@ describe Jemquarie::Expiry do
       Jemquarie::Expiry.new('valid_code', 'valid_password')
     end
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/expiry/expiry.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/expiry/expiry.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.credentials_expiry
     end
     it "should work" do

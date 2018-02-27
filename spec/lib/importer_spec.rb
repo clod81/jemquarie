@@ -175,6 +175,7 @@ describe Jemquarie::Importer do
     it "should accept parameters with account number but no date parameters without error" do
       @result = importer.cash_transactions(nil, nil, '12345')
       expect(@result).to be_kind_of Array
+      expect(@result).not_to be_empty
     end
   end
 

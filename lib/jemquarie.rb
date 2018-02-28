@@ -5,11 +5,13 @@ require 'jemquarie/parser/cash_transactions'
 require 'jemquarie/parser/expiry'
 require 'jemquarie/parser/account_details'
 require 'jemquarie/parser/balance'
+require 'jemquarie/parser/service'
 require 'jemquarie/base'
 require 'jemquarie/importer'
 require 'jemquarie/expiry'
 require 'jemquarie/account_details'
 require 'jemquarie/balance'
+require 'jemquarie/service'
 
 module Jemquarie
 
@@ -18,12 +20,16 @@ module Jemquarie
     @api_key        = nil
     @app_key        = nil
     @log_level      = nil
+    @logger = nil
+    @log_requests = false
 
     class << self
-      def api_credentials(api_key, application = 'Jemquarie Gem', log_level = :warn)
+      def api_credentials(api_key, application = 'Jemquarie Gem', log_level = :warn, logger = nil, log_requests = false)
         @log_level = log_level
         Jemquarie.api_key(api_key)
         Jemquarie.app_key(application)
+        @logger = logger
+        @log_requests = log_requests
       end
 
       def api_key(api_key = nil)
@@ -34,6 +40,14 @@ module Jemquarie
       def app_key(app_key = nil)
         @app_key = app_key unless app_key.nil?
         @app_key
+      end
+
+      def logger
+        @logger
+      end
+
+      def log_requests
+        @log_requests
       end
 
       def log_level

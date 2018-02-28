@@ -12,10 +12,11 @@ describe Jemquarie::Service do
 
   describe "success" do
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/service/success.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/service/success.xml'),
+          headers: { content_type: 'text/xml' }
+        )
       @result = importer.date
     end
     it "should work" do
@@ -25,10 +26,11 @@ describe Jemquarie::Service do
 
   describe "failures" do
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/service/failure.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/service/failure.xml'),
+          headers: { content_type: 'text/xml' }
+        )
     end
     it "should raise nothing" do
       expect{ importer.date }.to_not raise_error
@@ -41,10 +43,11 @@ describe Jemquarie::Service do
 
   describe "with invalid date" do
     before(:each) do
-      FakeWeb.register_uri(:post, Jemquarie::Jemquarie::BASE_URI,
-        body: File.read('spec/files/service/fail-date.xml'),
-        content_type: 'text/xml'
-      )
+      stub_request(:post, Jemquarie::Jemquarie::BASE_URI)
+        .to_return(
+          body: File.read('spec/files/service/fail-date.xml'),
+          headers: { content_type: 'text/xml' }
+        )
     end
     it "should raise nothing" do
       expect{ importer.date }.to_not raise_error

@@ -23,6 +23,7 @@ describe Jemquarie::Importer do
 
       first_item = @result.first
       expect(first_item[:foreign_identifier]).to eq("0132058314")
+      expect(first_item[:account_number]).to eq("121741987")
       expect(first_item[:date_time]).to eq(Time.parse("2008-12-19 00:00:00 UTC"))
       expect(first_item[:amount]).to eq("-2.4100")
       expect(first_item[:type_name]).to eq("B-PAY WITHDRAWAL")
@@ -32,6 +33,7 @@ describe Jemquarie::Importer do
 
       last_item = @result.last
       expect(last_item[:foreign_identifier]).to eq("0342606112")
+      expect(last_item[:account_number]).to eq("121741987")
       expect(last_item[:date_time]).to eq(Time.parse("2014-04-30 00:00:00 UTC"))
       expect(last_item[:amount]).to eq("0.0600")
       expect(last_item[:type_name]).to eq("INTEREST PAID")
@@ -42,6 +44,7 @@ describe Jemquarie::Importer do
 
       reverse_item = @result.detect{ |row| row[:reverse] == true }
       expect(reverse_item[:foreign_identifier]).to eq(first_item[:foreign_identifier])
+      expect(reverse_item[:account_number]).to eq("121741987")
       expect(reverse_item[:date_time]).to eq(Time.parse("2008-12-23 00:00:00 UTC"))
       expect(reverse_item[:amount]).to eq(first_item[:amount])
       expect(reverse_item[:type_name]).to eq(first_item[:type_name])
@@ -83,18 +86,6 @@ describe Jemquarie::Importer do
     it "should return an empty array" do
       expect(@result).to be_kind_of Array
       expect(@result).to eq([])
-    end
-  end
-
-  describe "do not allow more than 2 days without an account number" do
-    let(:importer) do
-      Jemquarie::Importer.new('valid_code', 'valid_password')
-    end
-    before(:each) do
-      @result = importer.cash_transactions((Date.today - 3.days), Date.today)
-    end
-    it "should stop the request" do
-      expect(@result).to be_kind_of Hash
     end
   end
 
@@ -159,12 +150,6 @@ describe Jemquarie::Importer do
         content_type: 'text/xml'
       )
     end
-    it "should return error when trying to get transactions with no date and no account" do
-      @result = importer.cash_transactions(nil, nil, nil)
-      expect(@result).to be_kind_of Hash
-      expect(@result[:error]).to eq("Missing from and to dates")
-    end
-
     it "should accept parameters with account number but no date parameters without error" do
       @result = importer.cash_transactions(nil, nil, '12345')
       expect(@result).to be_kind_of Array

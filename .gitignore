@@ -37,3 +37,6 @@ Gemfile.lock
 .rspec
 
 Gemfile.lock
+
+# ignore personal files
+.ruby-gemset

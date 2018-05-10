@@ -37,3 +37,6 @@ matrix:
 
 before_script:
   - bundle
+
+notifications:
+  slack: sharesight:U37WSO6VigyXdiL1DOjMCWOO

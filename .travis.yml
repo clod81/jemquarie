@@ -1,8 +1,7 @@
 language: ruby
 
 rvm:
-  - 2.5.0
-  - 2.5.1
+  - 2.5.3
 
 before_script:
   - bundle

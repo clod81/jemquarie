@@ -20,7 +20,7 @@ private
         :string1 => hash_key(@username),
         :string2 => hash_key(@password),
         :string3 => 'your.clients Service Date',
-        :string4 => 'V1.1',
+        :string4 => 'V1.0',
         :strings => ''
       }
     end
